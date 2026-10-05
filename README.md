@@ -1,2 +1,2 @@
-An AI-Generated Text Detection method.
-This project introduces a novel approach for detecting AI-generated text, named ETD (Extending the Discrepancy). It aims to enhance detection accuracy by optimizing discrepancy features between generated text and model predictive probability distributions.
+Large language models (LLMs) have significantly improved the fluency and naturalness of generated text. However, machine rewriting can further obscure machine-generated traces, making rewritten text increasingly difficult to distinguish from human-written content.
+To address this problem, we propose ExDis (Extending Statistical Discrepancy), a method for reliable machine-rewritten text detection. Instead of directly relying on the weakened statistical discrepancy between human-written and machine-rewritten texts, ExDis actively learns and extends these weak statistical differences through an iterative optimization process.
